@@ -1,0 +1,31 @@
+:root {
+    --roewagruen: #007556;
+}
+
+ 
+
+body{
+    height: 96vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.mainContainer{
+    height : 93vh;
+    width: 40vw;
+    margin-left: 2vw;
+    margin-right: 30vw;
+    background-color: #007556;
+    padding: 1rem;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+}
+h1,h2,h3,h4,h5,h6{
+    color : #FFFFFF ;
+    
+    text-align: center;
+    background-color: var(roewagruen);
+    border-radius: 20px;
+}
