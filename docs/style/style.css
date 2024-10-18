@@ -1,6 +1,5 @@
 :root {
     --roewagruen: #007556;
-    --roewagruenhell: #3AFAAD;
 }
 @font-face {
     font-family: 'Frutiger';
@@ -51,11 +50,12 @@ body {
     width: 33vw;
     margin-left: 1.5vw;
     margin-right: 1.5vw;
-    background-color: #f0f0f0;
+    background-color: white;
     padding: 1rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     border-radius: 10px;
+    border: 2px solid var(--roewagruen);
 }
 
 .mainContainerWhite {
@@ -74,7 +74,7 @@ body {
 }
 
 details{
-    color: white;
+    color: black;
 }
 
 .onGreenList{
@@ -84,7 +84,6 @@ details{
 .VideoCode,
 .VideoGame {
     height: calc(50% - 10px);
-    background-color: #f0f0f0;
 }
 
 .VideoGame {
@@ -92,7 +91,7 @@ details{
 }
 
 h1 {
-    color: #FFFFFF;
+    color: white;
     text-align: center;
     background-color: var(--roewagruen);
     border-radius: 20px;
@@ -100,7 +99,7 @@ h1 {
 
 h2,
 h3 {
-    color: #FFFFFF;
+    color: white;
     text-align: center;
     background-color: var(--roewagruen);
     border-radius: 20px;
@@ -109,13 +108,12 @@ h3 {
 h4 {
     color: var(--roewagruen);
     text-align: left;
-    background-color: #f0f0f0;
+    background-color: white;
     border-radius: 20px;
     font-size: 20px;
 }
-
-c1{
-    color: var(--roewagruenhell);
+h1,h2,h3,h4,h5,h6{
+    padding: 3px;
 }
 
 /*TDOD: Needs to be adjusted for Videos and not iframe*/
@@ -127,4 +125,9 @@ iframe{
 .headingGreen{
     color: var(--roewagruen);
     background-color: white;
+}
+.linkHeading{
+    color: var(--roewagruen);
+    background-color: white;
+    border: 2px solid var(--roewagruen);
 }
